@@ -11,6 +11,7 @@
 /*https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
     
 *, *:before, *:after {
@@ -56,10 +57,15 @@ header {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    flex: 1;
     height: 60px;
+    width: 100%;
+    flex:1;
     transition: background-color 0.3s;
     background-color: white;
+}
+
+.sections-cv a {
+    flex: 1;
 }
 
 .sections-cv button:hover {
@@ -68,6 +74,7 @@ header {
 }
 
 .separador h2 {
+    margin-top: 100px;
     width: 800px;
     text-align: center;
     padding: 20px;
@@ -85,6 +92,12 @@ header {
 }
 
 body section dl {
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.list-skills {
+    display: flex;
     justify-content: center;
 }
 
