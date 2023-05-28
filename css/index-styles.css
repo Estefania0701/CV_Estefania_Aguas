@@ -72,6 +72,7 @@ header {
 .sections-cv button:hover {
     background-color: lightgray;
     color: black;
+    cursor: pointer;
 }
 
 .separador h2 {
